@@ -17,6 +17,7 @@ class App extends Component {
         <Row>
           <h1>let's heal responsibly</h1>
           <h2>a public and transparent contact tracing system for covid 19</h2>
+          <p>for more information on contact tracing technology and systems, see: <a href="https://wikipedia.org/wiki/Contact_tracing">wikipedia.org/wiki/Contact_tracing</a>.</p>
         </Row>
         <hr />
         <Row>
@@ -97,10 +98,11 @@ class App extends Component {
         <Row>
           <ul>
             <li>oauth authentication identifies individual users using their google, facebook or apple id. a simple username/password can also be used where a user elects to do so.</li>
-            <li>an atlas mongo database is used to store user location and health disclosures</li>
-            <li>a react application serves as a web portal for user interactions and disclosures</li>
+            <li>an atlas mongo database cluster is used to store user location and health disclosures.</li>
+            <li>a react application serves as a web portal for user interactions and disclosures.</li>
+            <li>contribution towards rapid development of this application is actively sought.</li>
             <li>
-              <a href="https://github.com/letshealresponsibly/org">source code for the react application</a> is open source under and released under an MIT license
+              <a href="https://github.com/letshealresponsibly/org">source code for the react application</a> is open source and released under an MIT license
             </li>
           </ul>
         </Row>
