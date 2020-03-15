@@ -81,7 +81,7 @@ class App extends Component {
           </ul>
         </Row>
         <Row>
-          <h3>how is the contact tracing application implemented</h3>
+          <h3>how is the contact tracing system implemented</h3>
         </Row>
         <Row>
           <ul>
@@ -89,6 +89,19 @@ class App extends Component {
             <li>individuals disclose their own health status (one of: healthy, suspected-symptoms or tested-positive).</li>
             <li>individuals are notified if their location history intersects with a contact and what the severity of the contact was.</li>
             <li>no details about the individual, location or transport is disclosed when a contact is identified. only that a contact has been identified and what severity (yellow, amber, red) was identified.</li>
+          </ul>
+        </Row>
+        <Row>
+          <h3>what technology is used</h3>
+        </Row>
+        <Row>
+          <ul>
+            <li>oauth authentication identifies individual users using their google, facebook or apple id. a simple username/password can also be used where a user elects to do so.</li>
+            <li>an atlas mongo database is used to store user location and health disclosures</li>
+            <li>a react application serves as a web portal for user interactions and disclosures</li>
+            <li>
+              <a href="https://github.com/letshealresponsibly/org">source code for the react application</a> is open source under and released under an MIT license
+            </li>
           </ul>
         </Row>
       </Container>

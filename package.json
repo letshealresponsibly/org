@@ -37,6 +37,6 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "homepage": "https://letshealresponsibly.github.io/org"
+    "homepage": "https://letshealresponsibly.org"
   }
 }
