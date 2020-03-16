@@ -16,7 +16,7 @@ class App extends Component {
       <Container>
         <Row>
           <h1>let's heal responsibly</h1>
-          <h2>a public and transparent contact tracing system for covid 19</h2>
+          <h2>a public, transparent and anonymised contact tracing system for covid 19</h2>
           <p>for more information on contact tracing technology and systems, see: <a href="https://wikipedia.org/wiki/Contact_tracing">wikipedia.org/wiki/Contact_tracing</a>.</p>
         </Row>
         <hr />
